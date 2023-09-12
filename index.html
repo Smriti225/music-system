@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>spotify</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="brand"><img src="img/logo.png" alt="spotify"/><span>Spotify</span></li>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="songslist">
+                <h3>Best of NCS-No Copyright Songs</h3>
+                <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="img/2.jpg" alt="img"/>
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp"> 5:45 <i id="0" class="fa fa-play-circle fa-lg  songitemplay"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="img"/>
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp"> 2:30 <i  id="1" class="fa fa-play-circle  fa-lg  songitemplay"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="img"/>
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp">5:00 <i id="2" class="fa fa-play-circle songitemplay fa-lg"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="img"/>
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp"> 6:00 <i id="3" class="fa fa-play-circle songitemplay fa-lg"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="img"/>
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp"> 2:00 <i id="4" class="fa fa-play-circle songitemplay fa-lg"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="img"/>
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp"> 3:00 <i id="5" class="fa fa-play-circle songitemplay fa-lg"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="img"/>
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp"> 3:00 <i id="6" class="fa fa-play-circle songitemplay fa-lg"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="" alt="img"/>
+                    <span class="songname"></span>
+                    <span class="songlistplay"><span class="timestamp"> 3:00 <i  id="7" class="fa fa-play-circle songitemplay fa-lg"></i></span></span>
+                </div>
+            </div>
+        </div>
+            <div class="songbanner"></div>
+        </div>
+        <div class="bottom">
+            <input type="range" name="range" id="progressbar"min="0" value=0 max="100" />
+            <div class="icons">
+                <i class="fa fa-step-backward fa-lg"id="previous"></i>
+                <i class="fa fa-play-circle fa-lg" id="masterplay"></i>
+                <i class="fa fa-step-forward fa-lg" id="forward"></i>
+            </div>
+            <div class="songinfo">
+                <img src="img/play.gif" alt="playing" width="29px" id="gif"/><span id="masterSongName">Khamoshiyan</span>
+            </div> 
+        </div>
+        <script src="script.js"></script>
+        
+    </body>
+</html>
